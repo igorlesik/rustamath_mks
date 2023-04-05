@@ -1,4 +1,4 @@
-.PHONY: all build build-release build-production check test doc clean
+.PHONY: all build build-release build-production check test doc clean prepublish
 
 # Default target
 all: build test doc
@@ -25,3 +25,8 @@ test:
 
 doc:
 	@cargo doc --no-deps
+
+prepublish:
+	@cargo publish --dry-run
+	@cargo package --list
+	@echo "see https://doc.rust-lang.org/cargo/reference/publishing.html"

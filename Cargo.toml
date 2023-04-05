@@ -2,6 +2,15 @@
 name = "rustamath_mks"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+keywords = ["scientific"]
+categories = ["science"]
+description = "Physical constants and MKS system of units"
+homepage = "https://github.com/igorlesik/rustamath_mks"
+repository = "https://github.com/igorlesik/rustamath_mks"
+readme = "README.md"
+#documentation =
+#workspace = "path/to/workspace/root"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
