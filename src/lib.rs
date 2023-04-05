@@ -25,6 +25,9 @@ pub mod list;
 mod value;
 pub use self::value::{MksVal};
 
+#[cfg(test)]
+mod tests;
+
 /// MKS unit as tuple of integer powers/dimentions (meter, kg, sec, ampere).
 ///
 /// # Example
