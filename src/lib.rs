@@ -203,6 +203,8 @@ pub const DAY_UNIT:                    MksUnit = MksUnit {m:  0, k:  0, s:  1, a
 pub const WEEK_UNIT:                   MksUnit = MksUnit {m:  0, k:  0, s:  1, a:  0}; // s
 /// Distance
 pub const DISTANCE_UNIT:               MksUnit = MksUnit {m:  1, k:  0, s:  0, a:  0}; // m
+/// Area
+pub const AREA_UNIT:                   MksUnit = MksUnit {m:  2, k:  0, s:  0, a:  0}; // m^2
 /// Meter
 pub const METER_UNIT:                  MksUnit = MksUnit {m:  1, k:  0, s:  0, a:  0}; // m
 /// Inch
