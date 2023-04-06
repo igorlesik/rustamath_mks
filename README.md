@@ -3,6 +3,8 @@
 Rustamath MKS is Rust library with support for MKS system of units
 and values of physical constants in MKS.
 
+[List of all constants](https://docs.rs/rustamath_mks/0.1.0/rustamath_mks/trait.Mks.html#impl-Mks-for-f64)
+
 Here is an example that demonstrates the basic usage,
 it can be run with `cargo test simple_pendulum -- --nocapture` in the source directory.
 
