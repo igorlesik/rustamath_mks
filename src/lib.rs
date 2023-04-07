@@ -144,6 +144,8 @@ impl fmt::Display for MksUnit {
     }
 }
 
+/// Unit-less scalar
+pub const SCALAR_UNIT:                 MksUnit = MksUnit {m:  0, k:  0, s:  0, a:  0};
 /// Speed of light [m / s]
 ///
 /// # Example
