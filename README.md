@@ -1,5 +1,8 @@
 # Rustamath MKS
 
+![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
+[![CI](https://github.com/igorlesik/rustamath_mks/actions/workflows/test.yml/badge.svg)](https://github.com/igorlesik/rustamath_mks/actions/workflows/test.yml)
+
 Rustamath MKS is Rust library with support for MKS system of units
 and values of physical constants in MKS.
 
