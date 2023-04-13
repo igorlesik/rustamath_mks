@@ -2,6 +2,13 @@
 
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
 [![CI](https://github.com/igorlesik/rustamath_mks/actions/workflows/test.yml/badge.svg)](https://github.com/igorlesik/rustamath_mks/actions/workflows/test.yml)
+[![crates.io version][crates-io-shields]][crates-io]
+[![docs.rs][docs-rs-shields]][docs-rs]
+
+[crates-io]: https://crates.io/crates/rustamath_mks
+[crates-io-shields]: https://img.shields.io/crates/v/rustamath_mks.svg
+[docs-rs]: https://docs.rs/rustamath_mks
+[docs-rs-shields]: https://img.shields.io/badge/docs.rs-rustdoc-green.svg
 
 Rustamath MKS is Rust library with support for MKS system of units
 and values of physical constants in MKS.
